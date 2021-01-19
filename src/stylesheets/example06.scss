@@ -1,0 +1,80 @@
+/* TODO: Example 06 CSS goes here */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eee;
+}
+
+header {
+  background: none;
+  font-size: 3rem;
+}
+
+nav {
+  background: none;
+}
+
+nav > ul {
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+
+nav > ul > li {
+  background-color: darkgreen;
+  padding: 10px;
+  margin-left: 1rem;
+}
+nav > ul > li:first-child {
+  margin-left: 0;
+}
+
+nav > ul > li:last-child {
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.featured, .card, .aside {
+  background: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+button {
+  background-color: orange;
+  padding: .8rem;
+  border: none;
+  font-size: 1.2rem;
+}
+
+footer {
+}
+
+#login {
+}
+
+#login > input{
+  padding: .4rem;
+}
+
+#pricing {
+  font-size: 1.5rem;
+}
+
+#pricing > span:nth-child(2) {
+  font-size: 4rem;
+}
+
+#pricing > button {
+}
